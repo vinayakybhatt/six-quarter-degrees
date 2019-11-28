@@ -1,0 +1,18 @@
+{
+  "name": "random-number-six-quarter-degrees",
+  "version": "1.0.4",
+  "description": "this is a test module ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "isNumber",
+    "degree",
+    "Random Number"
+  ],
+  "author": "Vinayak Yuvraj Bhatt",
+  "license": "MIT"
+}
