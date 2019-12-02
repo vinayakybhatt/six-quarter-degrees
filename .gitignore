@@ -1,0 +1,11 @@
+# NPM packages folder.
+node_modules
+
+# Build files
+dist/
+dist
+
+#idea files
+.idea\workspace.xml
+.idea/*
+.idea\*
