@@ -4,7 +4,7 @@ This is a NPM PACKAGE with multiple functionalities, like =>
  
 2: _IsNumber(num)_ //returns BOOLEAN
 
-
+3: _ObjSize(obj)_ //returns the size of object 
 
 
 Developed by: VINAYAK YUVRAJ BHATT (Full Stack Developer).
@@ -28,3 +28,6 @@ Step 4:
  
     quarter.IsNumber(4) for a boolean value to verify if argument passed is an Number or not.
 
+Step 5:
+    
+    quarter.ObjSize(obj) returns the size of object passed.
