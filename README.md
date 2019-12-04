@@ -61,26 +61,27 @@ Step 7:
             price: 100,
             date: 2019-11-29
         }];
-     let sortedShopArray = shopArray.sort(pack.SortAOB("rank")); //sorts on rank key
-    //will give out=>
-    [{
+     let sortedShopArray = shopArray.sort(pack.SortAOB("rank"));
+     //sorts on rank key
+     //will give out=>
+     [{
         name: "Shop A",
         rank: 1,
         price: 100,
         date: 2019-11-30
-    },
-    {
+     },
+     {
         name: "Shop C",
         rank: 1,
         price: 100,
         date: 2019-11-29
-    },
-    {
+     },
+     {
         name: "Shop B",
         rank: 2,
         price: 100,
         date: 2019-11-29
-    }];
+     }];
 
     
   
