@@ -6,7 +6,10 @@ This is a NPM PACKAGE with multiple functionalities, like =>
 
 3: _ObjSize(obj)_ //returns the size of object 
 
+4: _OnlyUnique_ //returns an Array with unique elements
 
+5: _SortAOB_ //returns an sorted Array of Objects on the basis of a common key of objects
+ 
 Developed by: VINAYAK YUVRAJ BHATT (Full Stack Developer).
 
 
@@ -31,3 +34,53 @@ Step 4:
 Step 5:
     
     quarter.ObjSize(obj) returns the size of object passed.
+
+Step 6:
+
+    let a = ['a', 1, 'a', 2, '1'];
+    let uniqueArray = a.filter(quarter.OnlyUnique)
+    //['a', 1, 2, '1']
+        
+Step 7:
+    
+     let shopArray = [{
+            name: "Shop A",
+            rank: 1,
+            price: 100,
+            date: 2019-11-30
+        },
+        {
+            name: "Shop B",
+            rank: 2,
+            price: 100,
+            date: 2019-11-29
+        },
+        {
+            name: "Shop C",
+            rank: 1,
+            price: 100,
+            date: 2019-11-29
+        }];
+     let sortedShopArray = shopArray.sort(pack.SortAOB("rank")); //sorts on rank key
+    //will give out=>
+    [{
+        name: "Shop A",
+        rank: 1,
+        price: 100,
+        date: 2019-11-30
+    },
+    {
+        name: "Shop C",
+        rank: 1,
+        price: 100,
+        date: 2019-11-29
+    },
+    {
+        name: "Shop B",
+        rank: 2,
+        price: 100,
+        date: 2019-11-29
+    }];
+
+    
+  
