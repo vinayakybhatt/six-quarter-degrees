@@ -13,7 +13,7 @@ This is a NPM PACKAGE with multiple functionalities, like =>
 6: _Date_ //takes an ISO date string as input and returns only date in form of dd-mm,
             it can return dd-mm-yyyy if optional parameter true is passed.
 
-6: _Date_ //takes an ISO date string as input and returns only time in form of hh:mm am/pm,
+7: _Time_ //takes an ISO date string as input and returns only time in form of hh:mm am/pm,
             it can return hh:mm (24hours format)if optional parameter true is passed.
             
 Developed by: VINAYAK YUVRAJ BHATT (Full Stack Developer).
@@ -91,13 +91,13 @@ Function 5:
 
 Function 6: 
     
-    let date = new Date..toISOString() //2019-10-17T06:06:28
+    let date = new Date.toISOString() //2019-10-17T06:06:28
     quarter.Date("2019-10-17T06:06:28") //17-10 returns dd-mm
     quarter.Date("2019-10-17T06:06:28", true) //17-10-2019 returns dd-mm
 
 Function 7: 
     
-    let date = new Date..toISOString() //2019-10-17T06:06:28
+    let date = new Date.toISOString() //2019-10-17T06:06:28
     quarter.Time("2019-10-17T06:06:28") //returns 6:06 AM
     quarter.Time("2019-10-17T06:06:28", true) // 6:06 (24hours format)
     
