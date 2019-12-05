@@ -15,7 +15,15 @@
     "number",
     "isNumber",
     "degree",
-    "Random Number"
+    "Random Number",
+    "ISO",
+    "Date",
+    "Time",
+    "DateTime",
+    "array",
+    "Object",
+    "unique",
+    "sort"
   ],
   "author": "Vinayak Yuvraj Bhatt",
   "license": "MIT"
