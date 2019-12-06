@@ -93,7 +93,7 @@ Function 6:
     
     let date = new Date.toISOString() //2019-10-17T06:06:28
     quarter.Date("2019-10-17T06:06:28") //17-10 returns dd-mm
-    quarter.Date("2019-10-17T06:06:28", true) //17-10-2019 returns dd-mm
+    quarter.Date("2019-10-17T06:06:28", true) //17-10-2019 returns dd-mm-yyyy
 
 Function 7: 
     
