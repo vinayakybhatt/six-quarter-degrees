@@ -17,6 +17,7 @@ This is a NPM PACKAGE with multiple functionalities, like =>
             it can return hh:mm (24hours format)if optional parameter true is passed.
             
 Developed by: VINAYAK YUVRAJ BHATT (Full Stack Developer).
+vinayakybhatt@gmail.com
 
 
 
@@ -100,6 +101,7 @@ Function 7:
     let date = new Date.toISOString() //2019-10-17T06:06:28
     quarter.Time("2019-10-17T06:06:28") //returns 6:06 AM
     quarter.Time("2019-10-17T06:06:28", true) // 6:06 (24hours format)
+    
     
     
   
