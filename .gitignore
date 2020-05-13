@@ -6,5 +6,6 @@ dist/
 dist
 
 #idea files
-.idea/*
+.idea/
 .idea/workspace.xml
+src/.idea/
