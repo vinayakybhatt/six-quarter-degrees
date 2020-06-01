@@ -1,3 +1,6 @@
+I have created this NPM Package to help fellow coders, so that you can use handy functionalities on a go.<br/>
+I personally use these methods on a frequent basis.
+
 This is a NPM PACKAGE with multiple functionalities, like =>
 
 1: _Random(min, max)_ //returns Random Number
