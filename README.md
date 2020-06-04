@@ -21,7 +21,7 @@ This is a NPM PACKAGE with multiple functionalities, like =>
             
 Developed by: VINAYAK YUVRAJ BHATT (Full Stack Developer).
 vinayakybhatt@gmail.com
-
+<a href='https://github.com/vinayakybhatt'>Github</a>
 
 
 
