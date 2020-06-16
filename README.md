@@ -20,8 +20,7 @@ This is a NPM PACKAGE with multiple functionalities, like =>
             it can return hh:mm (24hours format)if optional parameter true is passed.
             
 Developed by: VINAYAK YUVRAJ BHATT (Full Stack Developer).
-vinayakybhatt@gmail.com
-<a href='https://github.com/vinayakybhatt'>Github</a>
+vinayakybhatt@gmail.com <br/><a href='https://github.com/vinayakybhatt'>Github</a>
 
 
 
